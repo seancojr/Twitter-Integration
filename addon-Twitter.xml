@@ -11,18 +11,17 @@
   <cron/>
   <email_templates/>
   <optiongroups>
-    <group group_id="OAuthTwitter" display_order="211" debug_only="0"/>
     <option option_id="twitterConsumerKey" edit_format="textbox" data_type="string" can_backup="1">
       <default_value></default_value>
       <edit_format_params></edit_format_params>
       <sub_options></sub_options>
-      <relation group_id="OAuthTwitter" display_order="1"/>
+      <relation group_id="twitter" display_order="2"/>
     </option>
     <option option_id="twitterConsumerSecret" edit_format="textbox" data_type="string" can_backup="1">
       <default_value></default_value>
       <edit_format_params></edit_format_params>
       <sub_options></sub_options>
-      <relation group_id="OAuthTwitter" display_order="2"/>
+      <relation group_id="twitter" display_order="0"/>
     </option>
   </optiongroups>
   <permissions>
@@ -35,8 +34,6 @@
     <phrase title="associate_with_twitter" version_id="1" version_string="1.2.0"><![CDATA[Associate with Twitter]]></phrase>
     <phrase title="disassociate_twitter_account" version_id="1" version_string="1.2.0"><![CDATA[Disassociate Twitter account]]></phrase>
     <phrase title="disassociating_with_twitter_will_cause_password_generated_emailed_x" version_id="1" version_string="1.2.0"><![CDATA[Disassociating with Twitter will cause a password to be generated for your account and emailed to {email}.]]></phrase>
-    <phrase title="option_group_OAuthTwitter" version_id="1" version_string="1.2.0"><![CDATA[Twitter Authentication]]></phrase>
-    <phrase title="option_group_OAuthTwitter_description" version_id="1" version_string="1.2.0"></phrase>
     <phrase title="option_twitterConsumerKey" version_id="2" version_string="1.1.0"><![CDATA[Consumer Key]]></phrase>
     <phrase title="option_twitterConsumerKey_explain" version_id="1" version_string="1.2.0"></phrase>
     <phrase title="option_twitterConsumerSecret" version_id="2" version_string="1.1.0"><![CDATA[Consumer Secret]]></phrase>
